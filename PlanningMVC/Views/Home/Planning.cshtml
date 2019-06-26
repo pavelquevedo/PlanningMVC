@@ -1,0 +1,104 @@
+﻿@model IEnumerable<PlanningMVC.Models.ClsBanca>
+
+@{
+    ViewBag.Title = "Planning";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var MtPx1 = 20;
+}
+
+<h2>Planning</h2>
+
+@foreach (var item in Model)
+{
+
+    
+    <div class="row" style="margin-top:20px;">
+        <div class="col-sm-1">
+            @Html.DisplayNameFor(model => model.nroBanca)
+            @Html.DisplayFor(modelItem => item.nroBanca)
+        </div>
+        <div style="height:@((item.ancho * MtPx1))px;width:@((item.largo * MtPx1))px;" class="banca">
+            @{  
+                double altoSegmento = item.ancho;
+                double largoSegmento = 1 / altoSegmento;
+                int segmentos = int.Parse(Math.Round(item.largo / largoSegmento,0).ToString());
+
+                for (int i = 1; i <= segmentos; i++)
+                {
+                    <div style="width:@(largoSegmento * MtPx1)px;height:@((altoSegmento * MtPx1)-2)px" class="banca-item">
+
+                    </div>
+                }
+                double excedente = item.areaExcedente;
+                if(excedente > 0) 
+                {
+                    double largoMtsUltimaCelda = excedente/altoSegmento;
+                    double largoPxUltimaCelda = largoMtsUltimaCelda * MtPx1;
+                    <div style="width:@(largoPxUltimaCelda)px;height:@((item.ancho * MtPx1) - 2)px" class="banca-item">
+
+                    </div>
+                }
+            }
+
+        </div>
+        <div class="col-sm-2">
+            @Html.DisplayFor(modelItem => item.area) m2
+        </div>
+    </div>
+                }
+
+
+<div class="row" style="margin-top:100px;">
+    <div class="col-md-3">
+        <button id="btnSiembra1" onclick="fncSembrar(1)">Siembra 1</button>
+    </div>
+    <div class="col-md-3">
+        <button id="btnSiembra2" onclick="fncSembrar(2)">Siembra 2</button>
+    </div>
+    <div class="col-md-3">
+        <button id="btnSiembra3">Siembra 3</button>
+    </div>
+</div>
+<style type="text/css">
+    .banca {
+        /*border: solid 1px black;*/
+        float: left;
+    }
+
+    .banca-item {
+        border: solid 1px black;
+        float: left;
+    }
+</style>
+
+<script type="text/javascript">
+
+    //$(document).ready(function () {
+    //    $('.banca-item').each(function (index) {
+    //        var dimens = $(this).css('width');
+    //    });
+    //});
+
+    function fncSembrar(id) {
+        $.ajax({
+            url: '@Url.Action("Sembrar", "Home")',
+            type: 'post',
+            dataType: 'json',
+            contentType: 'application/json',
+            //data: {
+            //    idSiembra: id        
+            //},
+            success: function (data, textStatus, jQxhr) {
+                var objSiembra = data;
+                var areaSiembra = data.area;
+
+
+                alert(JSON.stringify(data));
+            },
+            error: function (jqXhr, textStatus, errorThrown) {
+                console.log(errorThrown);
+            }
+        });
+    }
+</script>
