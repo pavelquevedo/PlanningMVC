@@ -10,7 +10,7 @@ namespace PlanningMVC.Models
     {
         public int nroInvernadero { get; set; }
         public int codTipoInvernadero { get; set; }
-        public string strLado { get; set; }
+        public int ladoInvernadero { get; set; }
         [DisplayName("Banca")]
         public int nroBanca { get; set; }
         public double largo { get; set; }

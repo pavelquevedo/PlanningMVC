@@ -4,97 +4,325 @@
     ViewBag.Title = "Planning";
     Layout = "~/Views/Shared/_Layout.cshtml";
 
-    var MtPx1 = 20;
+    var MtPx1 = 10;
+    var cantBancas = Model.Count();
+    var areaTotalBancas = Model.Sum(m => m.area);
+    var lados = Model.Max(m => m.ladoInvernadero);
 }
 
-<h2>Planning</h2>
+<div class="row">
+    @for (int i = 1; i <= lados; i++)
+    {
+        var listBancas = new List<PlanningMVC.Models.ClsBanca>();
+        //Si es lado impar
+        if (i % 2 != 0)
+        {
+            listBancas = Model.Where(m => m.ladoInvernadero == i).ToList();
+        }
+        else
+        {
+            listBancas = Model.Where(m => m.ladoInvernadero == i).Reverse().ToList();
+        }
 
-@foreach (var item in Model)
-{
+    <div class="col-md-6">
+        @foreach (var item in listBancas)
+        {
+            <div class="row" style="margin-top:10px;">
+                <div class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.nroBanca)
+                    @Html.DisplayFor(modelItem => item.nroBanca)
+                </div>
 
-    
-    <div class="row" style="margin-top:20px;">
-        <div class="col-sm-1">
-            @Html.DisplayNameFor(model => model.nroBanca)
-            @Html.DisplayFor(modelItem => item.nroBanca)
-        </div>
-        <div style="height:@((item.ancho * MtPx1))px;width:@((item.largo * MtPx1))px;" class="banca">
-            @{  
-                double altoSegmento = item.ancho;
-                double largoSegmento = 1 / altoSegmento;
-                int segmentos = int.Parse(Math.Round(item.largo / largoSegmento,0).ToString());
+                <div style="height:@((item.ancho * MtPx1))px;width:@((item.largo * MtPx1)+2)px;" class="banca" data-position="@item.nroBanca" >
+                    @{
+                        double altoSegmento = item.ancho;
+                        double largoSegmento = 1 / altoSegmento;
+                        double areaSegmento = altoSegmento * largoSegmento;
+                        int segmentos = int.Parse(Math.Round(item.largo / largoSegmento, 0).ToString());
 
-                for (int i = 1; i <= segmentos; i++)
-                {
-                    <div style="width:@(largoSegmento * MtPx1)px;height:@((altoSegmento * MtPx1)-2)px" class="banca-item">
+                        for (int x = 1; x <= segmentos; x++)
+                        {
+                            <div filled="false" ondblclick="fncSembrarSeleccion(this)" onclick="fncClick(this)" style="width:@(largoSegmento * MtPx1)px;height:@((altoSegmento * MtPx1)-2)px" class="banca-item" area="@(areaSegmento)">
 
-                    </div>
-                }
-                double excedente = item.areaExcedente;
-                if(excedente > 0) 
-                {
-                    double largoMtsUltimaCelda = excedente/altoSegmento;
-                    double largoPxUltimaCelda = largoMtsUltimaCelda * MtPx1;
-                    <div style="width:@(largoPxUltimaCelda)px;height:@((item.ancho * MtPx1) - 2)px" class="banca-item">
+                            </div>
+                        }
+                        double areaExcedente = item.areaExcedente;
+                        if (areaExcedente > 0)
+                        {
+                            double altoMtsUltimaCelda = item.ancho;
+                            double largoMtsUltimaCelda = areaExcedente / altoSegmento;
+                            double largoPxUltimaCelda = largoMtsUltimaCelda * MtPx1;
+                            <div filled="false" style="width:@(largoPxUltimaCelda)px;height:@((altoMtsUltimaCelda * MtPx1) - 2)px" class="banca-item" area="@(areaExcedente)">
 
-                    </div>
-                }
-            }
+                            </div>
+                        }
+                    }
 
-        </div>
-        <div class="col-sm-2">
-            @Html.DisplayFor(modelItem => item.area) m2
-        </div>
+                </div>
+                <div class="col-sm-2">
+                    @Html.DisplayFor(modelItem => item.area) m2
+                </div>
+            </div>
+        }
     </div>
-                }
+
+    }
+</div>
+
+
+
 
 
 <div class="row" style="margin-top:100px;">
-    <div class="col-md-3">
+    <div class="col-md-2">
+        <button id="btnSeleccionInicial" onclick="fncModoSeleccionInicial()">Posicion Inicial</button>
+    </div>
+    <div class="col-md-2">
         <button id="btnSiembra1" onclick="fncSembrar(1)">Siembra 1</button>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-2">
         <button id="btnSiembra2" onclick="fncSembrar(2)">Siembra 2</button>
     </div>
-    <div class="col-md-3">
-        <button id="btnSiembra3">Siembra 3</button>
+    <div class="col-md-2">
+        <button id="btnSiembra3" onclick="fncSembrar(3)">Siembra 3</button>
+    </div>
+    <div class="col-md-2">
+        <button id="btnSiembra3" onclick="fncSembrar(4)">Siembra 4</button>
+    </div>
+
+</div>
+<div class="row" style="margin-top:20px;">
+    <div class="col-md-2">
+        <button id="btnSeleccionSiembra" onclick="fncHabilitarSeleccionSiembra()">Seleccionar Siembra</button>
+    </div>
+    <div class="col-md-2">
+        <button id="btnRemoverSiembra" onclick="fncRemoverSiembra()">Remover Siembra</button>
     </div>
 </div>
 <style type="text/css">
     .banca {
-        /*border: solid 1px black;*/
+        border: solid 1px black;
         float: left;
     }
 
     .banca-item {
-        border: solid 1px black;
+        /*border: solid 1px black;*/
         float: left;
     }
 </style>
 
 <script type="text/javascript">
+    var posInicial = 9;
+    var siembraSeleccionada = {};
 
-    //$(document).ready(function () {
-    //    $('.banca-item').each(function (index) {
-    //        var dimens = $(this).css('width');
-    //    });
-    //});
+    function fncSembrarSeleccion(bancaItem) {
+        bancaItem = $(bancaItem);
+        if (bancaItem.attr('filled') == 'false') {
+            if (jQuery.isEmptyObject(siembraSeleccionada)) {
+                alert('No ha seleccionado ninguna siembra.');
+                return;
+            }
+            var position = parseInt(bancaItem.attr('position'));
+            var areaSiembra = parseFloat(siembraSeleccionada.area);
+            var areaDisponible = 0;
+            var espaciosBancas = $('.banca-item');
+            var espaciosPorOcupar = [];
+            for (var i = position; i < espaciosBancas.length; i++) {
+                var espacio = $(espaciosBancas[i]);
+                if (espacio.attr('filled') == 'false') {
+                    areaDisponible += parseFloat(espacio.attr('area'));
+                    espaciosPorOcupar.push(espacio);
+                } else {
+                    break;
+                }
+            }
+            if (position > 0) {
+                var posInitReverse = position - 1;
+                for (var y = posInitReverse; y >= 0; y--) {
+                    if ((typeof espaciosBancas[y] === 'undefined')) {
+                        break;
+                    } else {
+                        var espacio = $(espaciosBancas[y]);
+                        if (espacio.attr('filled') == 'false') {
+                            areaDisponible += parseFloat(espacio.attr('area'));
+                            espaciosPorOcupar.push(espacio);
+                        } else {
+                            break;
+                        }
+                    }
+                }
+            }
+            if (areaSiembra <= areaDisponible) {
+                for (var x = 0; x < espaciosPorOcupar.length; x++) {
+                    if (areaSiembra > 0) {
+                        var areaEspacio = parseFloat(espaciosPorOcupar[x].attr('area'));
+                        $(espaciosPorOcupar[x]).css('background-color', siembraSeleccionada.color);
+                        $(espaciosPorOcupar[x]).attr('filled', true);
+                        $(espaciosPorOcupar[x]).attr('id-siembra', siembraSeleccionada.idSiembra);
+                        areaDisponible -= areaEspacio;
+                        areaSiembra -= areaEspacio;
+                    } else {
+                        siembraSeleccionada = {};
+                        break;
+                    }                    
+                }                
+            } else {
+                alert('El espacio seleccionado no es suficiente para realizar la siembra.')
+            }
+        } else {
+            alert('El area seleccionada ya se encuentra ocupada.');
+        }
+        
+    }
+
+    function fncRemoverSiembra() {
+        if (siembraSeleccionada.idSiembra > 0) {
+            var itemsSiembra = $('.banca-item').filter(function (index) {
+                return $(this).attr('id-siembra') == siembraSeleccionada.idSiembra;
+            });
+
+            itemsSiembra.each(function () {
+                var areaBanca = $(this).attr("area");
+                $(this).css('background-color','');
+                $(this).attr('id-siembra','');
+                $(this).attr('filled', false);
+            });
+
+            $(".banca-item").each(function () {
+                if ($(this).attr("filled") == 'false') {
+                    $(this).removeAttr("onclick");
+                }
+            });
+        } else {
+            alert('Debe seleccionar la siembra a remover.');
+        }       
+    }
+
+    function fncHabilitarSeleccionSiembra() {
+        $(".banca-item").each(function () {
+            if ($(this).attr("filled") == 'true') {
+                $(this).attr("onclick", "fncSeleccionSiembra(this)");
+            }
+        });
+    }
+
+    function fncSeleccionSiembra(bancaItem) {
+        var itemsSiembra = $('.banca-item').filter(function (index) {
+            return $(this).attr('id-siembra') == $(bancaItem).attr('id-siembra');
+        });       
+
+        $(itemsSiembra).each(function () {            
+            $(this).css('background-color', 'blue');
+        });
+
+        $.get('@Url.Action("fncObtenerSiembra", "Home")' + '/' + $(bancaItem).attr('id-siembra'), function (data) {
+            siembraSeleccionada = data;
+        });
+
+    }
+
+    function fncClick(element) {
+        var bancaItem = $(element);
+        alert($(bancaItem).attr('filled'));
+    }
+
+    function sort_li(a, b) {
+        return ($(b).data('position')) < ($(a).data('position')) ? 1 : -1;
+    }
+
+    function fncModoSeleccionInicial() {
+        $(".banca-item").each(function (index) {
+            $(this).attr("position", index);
+            $(this).attr("onclick", "fncGetPosition(this)");
+        });
+    }
+
+    function fncGetPosition(bancaItem) {
+        bancaItem = $(bancaItem);
+        if (bancaItem.attr("filled") == 'false') {
+            posInicial = $(bancaItem).attr('position');
+            $(".banca-item").each(function (index) {
+                $(this).attr("onclick", "fncClick(element)");
+            });
+            alert('Posicion seleccionada: ' + posInicial);
+        } else {
+            alert('La posicion seleccionada ya se encuentra ocupada');
+        }       
+    }
+
+    function fncObtenerAreaDisponible() {
+        var areaDisponible = 0;
+        var areaTotal = @(areaTotalBancas);
+
+        $(".banca").each(function () {
+
+            var bancas = $(this).find('.banca-item');
+            $(bancas).each(function () {
+                var areaBanca = $(this).attr("area");
+                var isFilled = $(this).attr("filled");
+                if (isFilled == 'false') {
+                    areaDisponible += parseFloat(areaBanca);
+                }                                              
+            });
+        });
+
+        return parseFloat(areaDisponible);
+    }
+
+    function fncObtenerSiembra(id) {
+        $.get('@Url.Action("fncObtenerSiembra", "Home")'+'/'+id, function (data) {
+            alert(JSON.stringify(data));
+        });
+    }
 
     function fncSembrar(id) {
         $.ajax({
-            url: '@Url.Action("Sembrar", "Home")',
+            url: '@Url.Action("Sembrar", "Home")'+'/'+id,
             type: 'post',
             dataType: 'json',
             contentType: 'application/json',
             //data: {
-            //    idSiembra: id        
+            //    idSiembra: id
             //},
             success: function (data, textStatus, jQxhr) {
                 var objSiembra = data;
                 var areaSiembra = data.area;
+                var areaDisponible = 0;
+                var areaTotal = @(areaTotalBancas);
 
+                areaDisponible = fncObtenerAreaDisponible();
 
-                alert(JSON.stringify(data));
+                //Verificar si es posible realizar siembra
+                if (areaDisponible - areaSiembra > 0) {
+
+                    var bancasOrdenadas = $(".banca").sort(sort_li);
+
+                    bancasOrdenadas.each(function () {
+
+                        var bancas = $(this).find('.banca-item');
+                        $(bancas).each(function () {
+                            var isFilled = $(this).attr("filled");
+                            var areaBanca = $(this).attr("area");
+                            var position = $(this).attr('position');
+                            if (parseInt(position) >= parseInt(posInicial)) {
+                                if (isFilled != 'true' && areaSiembra > 0) {
+                                    $(this).css('background-color', objSiembra.color);
+                                    $(this).attr('filled', true);
+                                    $(this).attr('id-siembra', objSiembra.idSiembra);
+                                    areaDisponible -= areaBanca;
+                                    areaSiembra -= areaBanca;
+                                }
+                            } else {
+
+                            }                           
+                        });
+
+                    });
+                } else {
+                    alert("No se encuentra area suficiente en los invernaderos.");
+                }
+
+                alert(areaDisponible);
             },
             error: function (jqXhr, textStatus, errorThrown) {
                 console.log(errorThrown);

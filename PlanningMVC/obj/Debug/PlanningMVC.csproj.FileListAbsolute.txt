@@ -1,0 +1,336 @@
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\ApplicationInsights.config
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\roslyn\csc.exe
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\roslyn\vbc.exe
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\PlanningMVC.dll.config
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\PlanningMVC.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\PlanningMVC.pdb
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Antlr3.Runtime.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\EntityFramework.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.AI.Web.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Newtonsoft.Json.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Owin.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\System.Web.Helpers.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\System.Web.Mvc.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\System.Web.Optimization.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\System.Web.Razor.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\WebGrease.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.AI.Web.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\System.Web.Helpers.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\System.Web.Mvc.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\System.Web.Optimization.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\System.Web.Razor.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Antlr3.Runtime.pdb
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Newtonsoft.Json.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\EntityFramework.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\obj\Debug\PlanningMVC.dll
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\obj\Debug\PlanningMVC.pdb
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\obj\Debug\PlanningMVC.csproj.CoreCompileInputs.cache
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\obj\Debug\PlanningMVC.csproj.CopyComplete
+C:\Users\Pavel Quevedo\Documents\Visual Studio 2015\Projects\PlanningMVC\PlanningMVC\obj\Debug\PlanningMVC.csprojAssemblyReference.cache
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\ApplicationInsights.config
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\csc.exe
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\vbc.exe
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\PlanningMVC.dll.config
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\PlanningMVC.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\PlanningMVC.pdb
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Antlr3.Runtime.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\EntityFramework.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AI.Web.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Newtonsoft.Json.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Owin.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.Helpers.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.Mvc.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.Optimization.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.Razor.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\WebGrease.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AI.Web.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.Helpers.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.Mvc.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.Optimization.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.Razor.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Antlr3.Runtime.pdb
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Newtonsoft.Json.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\EntityFramework.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\obj\Debug\PlanningMVC.csprojAssemblyReference.cache
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\obj\Debug\PlanningMVC.csproj.CoreCompileInputs.cache
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\obj\Debug\PlanningMVC.csproj.CopyComplete
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\obj\Debug\PlanningMVC.dll
+C:\Users\52127259\Downloads\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\obj\Debug\PlanningMVC.pdb
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\ApplicationInsights.config
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\csc.exe
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\vbc.exe
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\PlanningMVC.dll.config
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\PlanningMVC.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\PlanningMVC.pdb
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Antlr3.Runtime.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\EntityFramework.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AI.Web.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Newtonsoft.Json.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Owin.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.Helpers.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.Mvc.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.Optimization.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.Razor.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\WebGrease.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AI.Web.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.Helpers.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.Mvc.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.Optimization.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.Razor.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Antlr3.Runtime.pdb
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Newtonsoft.Json.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\EntityFramework.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\obj\Debug\PlanningMVC.csprojAssemblyReference.cache
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\obj\Debug\PlanningMVC.csproj.CoreCompileInputs.cache
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\obj\Debug\PlanningMVC.csproj.CopyComplete
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\obj\Debug\PlanningMVC.dll
+C:\Users\Pavel Quevedo\Desktop\PlanningMVC-20190626T124124Z-001\PlanningMVC\PlanningMVC\obj\Debug\PlanningMVC.pdb
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\ApplicationInsights.config
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\roslyn\csc.exe
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\roslyn\vbc.exe
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\PlanningMVC.dll.config
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\PlanningMVC.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\PlanningMVC.pdb
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Antlr3.Runtime.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\EntityFramework.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.AI.Web.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Newtonsoft.Json.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Owin.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\System.Web.Helpers.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\System.Web.Mvc.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\System.Web.Optimization.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\System.Web.Razor.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\WebGrease.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.AI.Web.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\System.Web.Helpers.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\System.Web.Mvc.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\System.Web.Optimization.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\System.Web.Razor.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Antlr3.Runtime.pdb
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Newtonsoft.Json.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\EntityFramework.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\obj\Debug\PlanningMVC.csprojAssemblyReference.cache
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\obj\Debug\PlanningMVC.csproj.CoreCompileInputs.cache
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\obj\Debug\PlanningMVC.csproj.CopyComplete
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\obj\Debug\PlanningMVC.dll
+C:\Users\pavel\source\repos\PlanningMVC\PlanningMVC\obj\Debug\PlanningMVC.pdb

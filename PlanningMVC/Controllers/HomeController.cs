@@ -11,6 +11,51 @@ namespace PlanningMVC.Controllers
     {
         public ActionResult Index()
         {
+            List<ClsSiembra> lstSiembra = new List<ClsSiembra>();
+            ClsSiembra lSiembra = new ClsSiembra()
+            {
+                idSiembra = 1,
+                codTipoInvernadero = 1,
+                densidad = 1.11,
+                totalPlantas = 50,
+                color = "red"
+            };
+
+            ClsSiembra lSiembra2 = new ClsSiembra()
+            {
+                idSiembra = 2,
+                codTipoInvernadero = 1,
+                densidad = 0.7,
+                totalPlantas = 25,
+                color = "green"
+            };
+
+            ClsSiembra lSiembra3 = new ClsSiembra()
+            {
+                idSiembra = 3,
+                codTipoInvernadero = 1,
+                densidad = 0.7,
+                totalPlantas = 15,
+                color = "yellow"
+            };
+
+            ClsSiembra lSiembra4 = new ClsSiembra()
+            {
+                idSiembra = 4,
+                codTipoInvernadero = 1,
+                densidad = 0.6,
+                totalPlantas = 30,
+                color = "lightblue"
+            };
+
+            lstSiembra.Add(lSiembra);
+            lstSiembra.Add(lSiembra2);
+            lstSiembra.Add(lSiembra3);
+            lstSiembra.Add(lSiembra4);
+
+            Session["Siembras"] = lstSiembra;
+
+
             return View();
         }
 
@@ -23,17 +68,17 @@ namespace PlanningMVC.Controllers
             {
                 nroInvernadero = 1,
                 codTipoInvernadero = 1,
-                strLado = "A",
+                ladoInvernadero = 1,
                 nroBanca = 1,
-                largo = 15,
-                ancho = 2,
+                largo = 34,
+                ancho = 1.1,
                 alto = 1
             };
             ClsBanca lBanca2 = new ClsBanca()
             {
                 nroInvernadero = 1,
                 codTipoInvernadero = 1,
-                strLado = "A",
+                ladoInvernadero = 1,
                 nroBanca = 2,
                 largo = 30,
                 ancho = 1.2,
@@ -43,7 +88,7 @@ namespace PlanningMVC.Controllers
             {
                 nroInvernadero = 1,
                 codTipoInvernadero = 1,
-                strLado = "A",
+                ladoInvernadero = 1,
                 nroBanca = 3,
                 largo = 34,
                 ancho = 1.1,
@@ -53,7 +98,7 @@ namespace PlanningMVC.Controllers
             {
                 nroInvernadero = 1,
                 codTipoInvernadero = 1,
-                strLado = "A",
+                ladoInvernadero = 1,
                 nroBanca = 4,
                 largo = 22,
                 ancho = 1.1,
@@ -63,8 +108,59 @@ namespace PlanningMVC.Controllers
             {
                 nroInvernadero = 1,
                 codTipoInvernadero = 1,
-                strLado = "A",
-                nroBanca = 1,
+                ladoInvernadero = 1,
+                nroBanca = 5,
+                largo = 20,
+                ancho = 1.1,
+                alto = 1
+            };
+
+            ClsBanca lBanca6 = new ClsBanca()
+            {
+                nroInvernadero = 1,
+                codTipoInvernadero = 1,
+                ladoInvernadero = 2,
+                nroBanca = 6,
+                largo = 34,
+                ancho = 1.1,
+                alto = 1
+            };
+            ClsBanca lBanca7 = new ClsBanca()
+            {
+                nroInvernadero = 1,
+                codTipoInvernadero = 1,
+                ladoInvernadero = 2,
+                nroBanca = 7,
+                largo = 30,
+                ancho = 1.2,
+                alto = 1
+            };
+            ClsBanca lBanca8 = new ClsBanca()
+            {
+                nroInvernadero = 1,
+                codTipoInvernadero = 1,
+                ladoInvernadero = 2,
+                nroBanca = 8,
+                largo = 34,
+                ancho = 1.1,
+                alto = 1
+            };
+            ClsBanca lBanca9 = new ClsBanca()
+            {
+                nroInvernadero = 1,
+                codTipoInvernadero = 1,
+                ladoInvernadero = 2,
+                nroBanca = 9,
+                largo = 22,
+                ancho = 1.1,
+                alto = 1
+            };
+            ClsBanca lBanca10 = new ClsBanca()
+            {
+                nroInvernadero = 1,
+                codTipoInvernadero = 1,
+                ladoInvernadero = 2,
+                nroBanca = 10,
                 largo = 20,
                 ancho = 1.1,
                 alto = 1
@@ -75,24 +171,30 @@ namespace PlanningMVC.Controllers
             lstBancas.Add(lBanca3);
             lstBancas.Add(lBanca4);
             lstBancas.Add(lBanca5);
+            lstBancas.Add(lBanca6);
+            lstBancas.Add(lBanca7);
+            lstBancas.Add(lBanca8);
+            lstBancas.Add(lBanca9);
+            lstBancas.Add(lBanca10);
 
             return View(lstBancas);
         }
 
         [HttpPost]
-        public ActionResult Sembrar()
-        {
-            ClsSiembra lSiembra = new ClsSiembra()
-            {
-                idSiembra = 1,
-                codTipoInvernadero = 1,
-                densidad = 1.11,
-                totalPlantas = 100
-            };
+        public ActionResult Sembrar(int id){
 
-            return Json(lSiembra, JsonRequestBehavior.AllowGet);
+            List<ClsSiembra> lstSiembra = (List<ClsSiembra>)Session["Siembras"];
+
+            return Json(lstSiembra.Where(m => m.idSiembra == id).First(), JsonRequestBehavior.AllowGet);                                
         }
 
+        [HttpGet]
+        public ActionResult fncObtenerSiembra(int id) {
+            List<ClsSiembra> lstSiembra = (List<ClsSiembra>)Session["Siembras"];
+
+            return Json(lstSiembra.Where(m => m.idSiembra == id).First(), JsonRequestBehavior.AllowGet);
+        }
+     
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
